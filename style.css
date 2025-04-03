@@ -1,0 +1,36 @@
+body {
+    font-family: 'Playfair Display', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #4287f5, #25A4FA);
+    text-align: center;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #6F21FA;
+}
+
+#projects {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.project {
+    background: white;
+    padding: 7px;
+    border-radius: 10px;
+}
